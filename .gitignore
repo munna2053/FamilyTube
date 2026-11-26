@@ -1,0 +1,27 @@
+# Media library (configured via FAMILYTUBE_MEDIA_DIR)
+/backend/media/
+
+# Backend runtime data: watch DB, generated thumbnails
+/backend/data/
+/backend/backend/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+*.jks
+*.keystore
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
